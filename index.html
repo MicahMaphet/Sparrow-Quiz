@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sparrow Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+  .centerbutton {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+  .centerbutton2 {
+  margin: 0;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  </style>
+</head>
+
+<body>
+  <h1>Sparrow Quiz</h1> <br>
+<p id= "question1">What is the airspeed velocity of an unlaiden swallow?</p>
+  <div class="centerbutton">
+  <button type ="button"
+onclick="Setq1(0)">35 meters per beat</button>
+
+<button type ="button"
+onclick="Setq1(1)">75 meters per beat</button>
+
+<button type ="button"
+onclick="Setq1(0)">135 meters per beat</button>
+
+<button type ="button"
+onclick="Setq1(0)">15 meters per beat</button>
+  </div>
+  <br> <br>
+<p id= "question1">How much does a swallow weigh?</p>
+  
+  <div class="centerbutton2">
+  <button type ="button"
+onclick="Setq2(0)">3 - 5oz</button>
+
+<button type ="button"
+onclick="Setq2(0)">15 - 20oz</button>
+
+<button type ="button"
+  onclick="Setq2(0)">0.1 - 0.12oz</button>
+
+<button type ="button"
+onclick="Setq2(1)">0.6 - 0.7oz</button>
+  </div>
+
+<p2 id ="score"></p2>
+  
+<button type ="button" onclick=EndQuiz()>Score</button>
+  
+<script src="script.js"></script>
+  
+</body>
+</html>
